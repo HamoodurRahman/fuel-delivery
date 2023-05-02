@@ -12,10 +12,10 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "eject": "craco eject"
   },
   "eslintConfig": {
     "extends": [
@@ -36,6 +36,9 @@
     ]
   },
   "devDependencies": {
+    "@craco/craco": "^7.1.0",
+    "babel-plugin-jsx-control-statements": "^4.1.2",
+    "babel-plugin-jsx-display-if": "^3.0.0",
     "react-router-dom": "^6.8.2"
   }
 }
