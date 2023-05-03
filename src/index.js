@@ -3,12 +3,12 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from './pages/home';
-import Portfolio from './pages/portfolio';
 import About from './pages/about';
 import Contact from './pages/contact';
 import FourZeroFour from './pages/404';
 import LayoutWithHeader from './layouts/layout-header';
 import LayoutWithOutHeader from './layouts/layout-noheader';
+import Service from './pages/service';
 
 const root = ReactDOM.createRoot(document.getElementById('any-one'));
 root.render(
@@ -17,9 +17,9 @@ root.render(
       <Routes>
         <Route path='/' element={<LayoutWithHeader />} >
           <Route index element={<Home />} />
-          <Route path='portfolio' element={<Portfolio />} />
-          <Route path='about' element={<About />} />
-          <Route path='contact' element={<Contact />} />
+          <Route path='/about' element={<About />} />
+          <Route path='/service' element={<Service />} />
+          <Route path='/contact' element={<Contact />} />
         </Route>
         <Route path='*' element={<LayoutWithOutHeader />} >
           <Route path='*' element={<FourZeroFour />} />

@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Footer() {
   return (
     <>
@@ -48,9 +50,9 @@ function Footer() {
                   </a>
                 </li>
                 <li className>
-                  <a className href="#">
+                  <Link className href="#">
                     Login
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -78,37 +80,37 @@ function Footer() {
               <h6>Contact Us</h6>
               <div className="info_link-box">
                 <a href>
-                  <img src="images/location-white.png" alt />
+                  <img src="images/location-white.png" alt="" />
                   <span> No.123, loram ipusm</span>
                 </a>
                 <a href>
-                  <img src="images/call-white.png" alt />
+                  <img src="images/call-white.png" alt="" />
                   <span>+01 12345678901</span>
                 </a>
                 <a href>
-                  <img src="images/mail-white.png" alt />
+                  <img src="images/mail-white.png" alt="" />
                   <span> demo123@gmail.com</span>
                 </a>
               </div>
               <div className="info_social">
                 <div>
                   <a href>
-                    <img src="images/facebook-logo-button.png" alt />
+                    <img src="images/facebook-logo-button.png" alt="" />
                   </a>
                 </div>
                 <div>
                   <a href>
-                    <img src="images/twitter-logo-button.png" alt />
+                    <img src="images/twitter-logo-button.png" alt="" />
                   </a>
                 </div>
                 <div>
                   <a href>
-                    <img src="images/linkedin.png" alt />
+                    <img src="images/linkedin.png" alt="" />
                   </a>
                 </div>
                 <div>
                   <a href>
-                    <img src="images/instagram.png" alt />
+                    <img src="images/instagram.png" alt="" />
                   </a>
                 </div>
               </div>

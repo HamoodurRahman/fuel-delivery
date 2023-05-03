@@ -68,7 +68,8 @@ body {
 }
 
 .sub_page .slider_section {
-  background: none
+  background: none;
+  background-color: #f8f8f8
 }
 
 .sub_page.about_page .slider_section {

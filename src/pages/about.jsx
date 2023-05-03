@@ -2,14 +2,14 @@ function About() {
   return (
     <>
       {/* about section */}
-      <section className="about_section layout_padding">
+      <section className="about_section layout_padding" id="about">
         <div className="container">
           <div className="heading_container">
             <h2>About Energym</h2>
           </div>
           <div className="box">
             <div className="img-box">
-              <img src="images/about-img.png" alt />
+              <img src="images/about-img.png" alt="" />
             </div>
             <div className="detail-box">
               <p>

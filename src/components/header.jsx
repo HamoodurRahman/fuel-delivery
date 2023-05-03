@@ -4,35 +4,35 @@ import SliderHome from "./slider-home";
 function Header() {
   window.gLocation = useLocation();
   return (
-    <div>
+    <div className={(window.gLocation.pathname !== '/') ? 'sub_page' : ''}>
       <div className="hero_area">
         {/* header section strats */}
         <header className="header_section">
           <div className="container">
             <nav className="navbar navbar-expand-lg custom_nav-container">
-              <a className="navbar-brand" href="index.html">
-                <img src="images/logo.png" alt />
+              <Link className="navbar-brand" to="index.html">
+                <img src="images/logo.png" alt="" />
                 <span>Energym</span>
-              </a>
+              </Link>
               <div className="contact_nav" id>
                 <ul className="navbar-nav ">
                   <li className="nav-item">
-                    <a className="nav-link" href="service.html">
-                      <img src="images/location.png" alt />
+                    <Link className="nav-link" to="service.html">
+                      <img src="images/location.png" alt="" />
                       <span>Location</span>
-                    </a>
+                    </Link>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="service.html">
-                      <img src="images/call.png" alt />
+                    <Link className="nav-link" to="service.html">
+                      <img src="images/call.png" alt="" />
                       <span>Call : + 01 1234567890</span>
-                    </a>
+                    </Link>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="service.html">
-                      <img src="images/envelope.png" alt />
+                    <Link className="nav-link" to="service.html">
+                      <img src="images/envelope.png" alt="" />
                       <span>demo@gmail.com</span>
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -58,34 +58,33 @@ function Header() {
                 </button>
                 <div
                   className="collapse navbar-collapse"
-                  id="navbarSupportedContent"
-                >
+                  id="navbarSupportedContent">
                   <div className="d-flex  flex-column flex-lg-row align-items-center">
-                    <ul className="navbar-nav  ">
+                    <ul className="navbar-nav">
+                      <li className="nav-item">
+                        <Link className="nav-link" to="/home">
+                          Home
+                        </Link>
+                      </li>
                       <li className="nav-item active">
-                        <a className="nav-link" href="index.html">
-                          Home <span className="sr-only">(current)</span>
-                        </a>
+                        <Link className="nav-link" to="/about">
+                          About <span className="sr-only">(current)</span>
+                        </Link>
                       </li>
                       <li className="nav-item">
-                        <a className="nav-link" href="about.html">
-                          About{" "}
-                        </a>
-                      </li>
-                      <li className="nav-item">
-                        <a className="nav-link" href="service.html">
+                        <Link className="nav-link" to="/service">
                           Services{" "}
-                        </a>
+                        </Link>
                       </li>
                       <li className="nav-item">
-                        <a className="nav-link" href="contact.html">
+                        <Link className="nav-link" to="/contact">
                           Contact Us
-                        </a>
+                        </Link>
                       </li>
                       <li className="nav-item">
-                        <a className="nav-link" href="#">
+                        <Link className="nav-link" to="#">
                           Login
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                     <form className="form-inline my-2 my-lg-0 ml-0 ml-lg-4 mb-3 mb-lg-0">
@@ -99,7 +98,7 @@ function Header() {
               </nav>
             </div>
           </div>
-          <SliderHome />
+          <SliderHome display-if={window.gLocation.pathname === '/'} />
         </section>
         {/* end slider section */}
       </div>

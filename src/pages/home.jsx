@@ -9,7 +9,7 @@ function Home() {
           </div>
           <div className="box">
             <div className="img-box">
-              <img src="images/about-img.png" alt />
+              <img src="images/about-img.png" alt="" />
             </div>
             <div className="detail-box">
               <p>
@@ -31,61 +31,61 @@ function Home() {
           </div>
           <div className="service_container">
             <div className="box">
-              <img src="images/s-1.jpg" alt />
+              <img src="images/s-1.jpg" alt="" />
               <h6 className="visible_heading">CROSSFIT TRAINING</h6>
               <div className="link_box">
                 <a href>
-                  <img src="images/link.png" alt />
+                  <img src="images/link.png" alt="" />
                 </a>
                 <h6>CROSSFIT TRAINING</h6>
               </div>
             </div>
             <div className="box">
-              <img src="images/s-2.jpg" alt />
+              <img src="images/s-2.jpg" alt="" />
               <h6 className="visible_heading">FITNESS</h6>
               <div className="link_box">
                 <a href>
-                  <img src="images/link.png" alt />
+                  <img src="images/link.png" alt="" />
                 </a>
                 <h6>FITNESS</h6>
               </div>
             </div>
             <div className="box">
-              <img src="images/s-3.jpg" alt />
+              <img src="images/s-3.jpg" alt="" />
               <h6 className="visible_heading">DYNAMIC STRENGTH TRAINING</h6>
               <div className="link_box">
                 <a href>
-                  <img src="images/link.png" alt />
+                  <img src="images/link.png" alt="" />
                 </a>
                 <h6>DYNAMIC STRENGTH TRAINING</h6>
               </div>
             </div>
             <div className="box">
-              <img src="images/s-4.jpg" alt />
+              <img src="images/s-4.jpg" alt="" />
               <h6 className="visible_heading">HEALTH</h6>
               <div className="link_box">
                 <a href>
-                  <img src="images/link.png" alt />
+                  <img src="images/link.png" alt="" />
                 </a>
                 <h6>HEALTH</h6>
               </div>
             </div>
             <div className="box">
-              <img src="images/s-5.jpg" alt />
+              <img src="images/s-5.jpg" alt="" />
               <h6 className="visible_heading">WORKOUT</h6>
               <div className="link_box">
                 <a href>
-                  <img src="images/link.png" alt />
+                  <img src="images/link.png" alt="" />
                 </a>
                 <h6>WORKOUT</h6>
               </div>
             </div>
             <div className="box">
-              <img src="images/s-6.jpg" alt />
+              <img src="images/s-6.jpg" alt="" />
               <h6 className="visible_heading">STRATEGIES</h6>
               <div className="link_box">
                 <a href>
-                  <img src="images/link.png" alt />
+                  <img src="images/link.png" alt="" />
                 </a>
                 <h6>STRATEGIES</h6>
               </div>
@@ -103,7 +103,7 @@ function Home() {
           <div className="us_container">
             <div className="box">
               <div className="img-box">
-                <img src="images/u-1.png" alt />
+                <img src="images/u-1.png" alt="" />
               </div>
               <div className="detail-box">
                 <h5>QUALITY EQUIPMENT</h5>
@@ -115,7 +115,7 @@ function Home() {
             </div>
             <div className="box">
               <div className="img-box">
-                <img src="images/u-2.png" alt />
+                <img src="images/u-2.png" alt="" />
               </div>
               <div className="detail-box">
                 <h5>HEALTHY NUTRITION PLAN</h5>
@@ -127,7 +127,7 @@ function Home() {
             </div>
             <div className="box">
               <div className="img-box">
-                <img src="images/u-3.png" alt />
+                <img src="images/u-3.png" alt="" />
               </div>
               <div className="detail-box">
                 <h5>SHOWER SERVICE</h5>
@@ -139,7 +139,7 @@ function Home() {
             </div>
             <div className="box">
               <div className="img-box">
-                <img src="images/u-4.png" alt />
+                <img src="images/u-4.png" alt="" />
               </div>
               <div className="detail-box">
                 <h5>UNIQUE TO YOUR NEEDS</h5>
@@ -177,7 +177,7 @@ function Home() {
               <div className="carousel-item active">
                 <div className="box">
                   <div className="img-box">
-                    <img src="images/client.png" alt />
+                    <img src="images/client.png" alt="" />
                   </div>
                   <div className="detail-box">
                     <h5>Consectetur</h5>
@@ -192,7 +192,7 @@ function Home() {
               <div className="carousel-item">
                 <div className="box">
                   <div className="img-box">
-                    <img src="images/client.png" alt />
+                    <img src="images/client.png" alt="" />
                   </div>
                   <div className="detail-box">
                     <h5>Consectetur</h5>
@@ -207,7 +207,7 @@ function Home() {
               <div className="carousel-item">
                 <div className="box">
                   <div className="img-box">
-                    <img src="images/client.png" alt />
+                    <img src="images/client.png" alt="" />
                   </div>
                   <div className="detail-box">
                     <h5>Consectetur</h5>
@@ -230,7 +230,7 @@ function Home() {
           <div className="row">
             <div className="col-md-6 px-0">
               <div className="img-box">
-                <img src="images/result-img.jpg" alt />
+                <img src="images/result-img.jpg" alt="" />
               </div>
             </div>
             <div className="col-lg-4 col-md-5">
