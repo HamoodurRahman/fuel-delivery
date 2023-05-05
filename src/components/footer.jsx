@@ -6,7 +6,7 @@ function Footer() {
       {/* info section */}
       <section className="info_section layout_padding2-top">
         <div className="container">
-          <div className="info_form">
+          {/* <div className="info_form">
             <h4>Our Newsletter</h4>
             <form action>
               <input type="text" placeholder="Enter your email" />
@@ -14,82 +14,75 @@ function Footer() {
                 <button>subscribe</button>
               </div>
             </form>
-          </div>
+          </div> */}
         </div>
         <div className="container">
           <div className="row">
             <div className="col-md-3">
-              <h6>About Energym</h6>
+              <h6>About Us</h6>
               <p>
-                consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                nostrud exercitation u
+                Welcome to our online fuel delivery platform! <br />
+                Our mission is to provide high-quality fuel delivery services to our customers while promoting sustainability and reducing our environmental impact.
               </p>
             </div>
             <div className="col-md-2 offset-md-1">
               <h6>Menus</h6>
               <ul>
                 <li className=" active">
-                  <a className href="index.html">
+                  <Link className to="/">
                     Home <span className="sr-only">(current)</span>
-                  </a>
+                  </Link>
                 </li>
                 <li className>
-                  <a className href="about.html">
+                  <Link className to="/about">
                     About{" "}
-                  </a>
+                  </Link>
                 </li>
                 <li className>
-                  <a className href="service.html">
+                  <Link className to="/services">
                     Services{" "}
-                  </a>
+                  </Link>
                 </li>
                 <li className>
-                  <a className href="#contactSection">
+                  <Link className to="/contact">
                     Contact Us
-                  </a>
+                  </Link>
                 </li>
                 <li className>
-                  <Link className href="#">
+                  <Link className to="#">
                     Login
                   </Link>
                 </li>
               </ul>
             </div>
             <div className="col-md-3">
-              <h6>Useful Links</h6>
+              <h6>Support</h6>
               <ul>
                 <li>
-                  <a href>Adipiscing</a>
+                  <a href>Terms & Conditions</a>
                 </li>
                 <li>
-                  <a href>Elit, sed</a>
+                  <a href>Privacy Policy</a>
                 </li>
                 <li>
-                  <a href>do Eiusmod</a>
-                </li>
-                <li>
-                  <a href>Tempor</a>
-                </li>
-                <li>
-                  <a href>incididunt</a>
+                  <a href>FAQ</a>
                 </li>
               </ul>
             </div>
             <div className="col-md-3">
               <h6>Contact Us</h6>
               <div className="info_link-box">
-                <a href>
+                <a href="http://maps.google.com/?q=Bahawalpur">
                   <img src="images/location-white.png" alt="" />
-                  <span> No.123, loram ipusm</span>
+                  <span>Location</span>
                 </a>
-                <a href>
+                <a href="tel: +923499493369">
                   <img src="images/call-white.png" alt="" />
-                  <span>+01 12345678901</span>
-                </a>
-                <a href>
+                  <span>+923499493369</span>
+                </a> 
+                <a href="mailto: hamoodkhan@gmail.com">
                   <img src="images/mail-white.png" alt="" />
-                  <span> demo123@gmail.com</span>
+                  <span>hamoodkhan2002@gmail.com</span>
                 </a>
               </div>
               <div className="info_social">
@@ -122,8 +115,7 @@ function Footer() {
       {/* footer section */}
       <section className="container-fluid footer_section ">
         <p>
-          © 2019 All Rights Reserved. Design by
-          <a href="https://html.design/">Free Html Templates</a>
+          © 2023 Fuel Delivery Management System
         </p>
       </section>
       {/* footer section */}

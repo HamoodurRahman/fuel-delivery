@@ -9,6 +9,8 @@ import FourZeroFour from './pages/404';
 import LayoutWithHeader from './layouts/layout-header';
 import LayoutWithOutHeader from './layouts/layout-noheader';
 import Service from './pages/service';
+import Login from './pages/Login';
+import Dashboard from './pages/dashboard';
 
 const root = ReactDOM.createRoot(document.getElementById('any-one'));
 root.render(
@@ -20,6 +22,9 @@ root.render(
           <Route path='/about' element={<About />} />
           <Route path='/service' element={<Service />} />
           <Route path='/contact' element={<Contact />} />
+          <Route path='/dashboard' element={<Dashboard />} />
+          <Route path='/login' element={<Login />} />
+
         </Route>
         <Route path='*' element={<LayoutWithOutHeader />} >
           <Route path='*' element={<FourZeroFour />} />

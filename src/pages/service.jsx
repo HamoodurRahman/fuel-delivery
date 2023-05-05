@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Service() {
     return (
@@ -18,9 +19,9 @@ function Service() {
                                 CROSSFIT TRAINING
                             </h6>
                             <div className="link_box">
-                                <a href>
+                                <Link to>
                                     <img src="images/link.png" alt="" />
-                                </a>
+                                </Link>
                                 <h6>
                                     CROSSFIT TRAINING
                                 </h6>
@@ -32,9 +33,9 @@ function Service() {
                                 FITNESS
                             </h6>
                             <div className="link_box">
-                                <a href>
+                                <Link to>
                                     <img src="images/link.png" alt="" />
-                                </a>
+                                </Link>
                                 <h6>
                                     FITNESS
                                 </h6>
@@ -46,9 +47,9 @@ function Service() {
                                 DYNAMIC STRENGTH TRAINING
                             </h6>
                             <div className="link_box">
-                                <a href>
+                                <Link to>
                                     <img src="images/link.png" alt="" />
-                                </a>
+                                </Link>
                                 <h6>
                                     DYNAMIC STRENGTH TRAINING
                                 </h6>
@@ -60,9 +61,9 @@ function Service() {
                                 HEALTH
                             </h6>
                             <div className="link_box">
-                                <a href>
+                                <Link to>
                                     <img src="images/link.png" alt="" />
-                                </a>
+                                </Link>
                                 <h6>
                                     HEALTH
                                 </h6>
@@ -74,9 +75,9 @@ function Service() {
                                 WORKOUT
                             </h6>
                             <div className="link_box">
-                                <a href>
+                                <Link to>
                                     <img src="images/link.png" alt="" />
-                                </a>
+                                </Link>
                                 <h6>
                                     WORKOUT
                                 </h6>
@@ -88,9 +89,9 @@ function Service() {
                                 STRATEGIES
                             </h6>
                             <div className="link_box">
-                                <a href>
+                                <Link to>
                                     <img src="images/link.png" alt="" />
-                                </a>
+                                </Link>
                                 <h6>
                                     STRATEGIES
                                 </h6>
