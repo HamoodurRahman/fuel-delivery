@@ -171,7 +171,7 @@ function Home() {
                   <div className="detail-box">
                     <h5>King David</h5>
                     <p>
-                     Excellent customer service! Whenever I needed something they were there for me. Thank you guys
+                      Excellent customer service! Whenever I needed something they were there for me. Thank you guys
                     </p>
                   </div>
                 </div>
@@ -211,13 +211,10 @@ function Home() {
                   BEST RESULTS
                 </h2>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit
+                  Online fuel delivery offers a high level of convenience to customers who may find it difficult or time-consuming to visit a petrol station. With online fuel delivery, customers can order fuel from the comfort of their homes or offices, and have it delivered to their doorstep at a convenient time.<br/>
+
+                  Online fuel delivery saves customers time that would have been spent traveling to a petrol station, waiting in line, and filling up their tanks. This time can be redirected to other important tasks, making online fuel delivery a valuable time-saving service.
                 </p>
-                <Link to>Get A Quote</Link>
               </div>
             </div>
           </div>

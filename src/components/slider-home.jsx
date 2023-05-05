@@ -51,14 +51,14 @@ const SliderHome = () => {
                     <p>
                     Online fuel delivery services are available 24/7, making it convenient for customers to order fuel at any time of the day or night.
                     </p>
-                    <div className="btn-box">
+                    {/* <div className="btn-box">
                       <a href className="btn-1">
                         Read More
                       </a>
                       <a href className="btn-2">
                         Get A Quote
                       </a>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
@@ -74,8 +74,7 @@ const SliderHome = () => {
                     <p>
                       "Fuel up your car without leaving your house. Now that's convenience." <br/>
                       "Why go to the gas station when the gas station can come to you?"
-                    </p>
-                    
+                    </p>                    
                   </div>
                 </div>
               </div>

@@ -71,11 +71,6 @@ function Header() {
                           About  <span diplay-if={window.gLocation.pathname === '/about'} className="sr-only">(current)</span>
                         </Link>
                       </li>
-                      {/* <li className={(window.gLocation.pathname === '/service') ? 'nav-item active' : 'nav-item'}>
-                        <Link className="nav-link" to="/service">
-                          Services <span diplay-if={window.gLocation.pathname === '/service'} className="sr-only">(current)</span>
-                        </Link>
-                      </li> */}
                       <li className={(window.gLocation.pathname === '/contact') ? 'nav-item active' : 'nav-item'}>
                         <Link className="nav-link" to="/contact">
                           Contact Us <span diplay-if={window.gLocation.pathname === '/contact'} className="sr-only">(current)</span>
@@ -86,15 +81,20 @@ function Header() {
                           Stations <span diplay-if={window.gLocation.pathname === '/stations'} className="sr-only">(current)</span>
                         </Link>
                       </li>
-                      <li className={(window.gLocation.pathname === '/stations') ? 'nav-item active' : 'nav-item'}>
+                      <li className={(window.gLocation.pathname === '/dashboard') ? 'nav-item active' : 'nav-item'}>
                         <a className="nav-link" href="http://localhost/fueldelivery/admin/dashboard.php">
                           Dashboard <span diplay-if={window.gLocation.pathname === '/dashboard'} className="sr-only">(current)</span>
                         </a>
                       </li>
-                      <li className={(window.gLocation.pathname === '/login') ? 'nav-item active' : 'nav-item'}>
-                        <Link className="nav-link" to="/login">
-                          Login <span diplay-if={window.gLocation.pathname === '/login'} className="sr-only">(current)</span>
-                        </Link>
+                      <li className="nav-item dropdown">
+                        <a className="nav-link dropdown-toggle">
+                          Dashboard <span diplay-if={window.gLocation.pathname === '/dashboard'} className="sr-only">(current)</span>
+                        </a>
+                        <ul className="dropdown-menu" aria-labelledby="navbarDropdown" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          <li><a className="dropdown-item" href="#">Action</a></li>
+                          <li><a className="dropdown-item" href="#">Another action</a></li>
+                          <li><a className="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
                       </li>
                     </ul>
                     {/* <form className="form-inline my-2 my-lg-0 ml-0 ml-lg-4 mb-3 mb-lg-0">
