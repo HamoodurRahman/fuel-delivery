@@ -83,18 +83,13 @@ function Header() {
                       </li>
                       <li className={(window.gLocation.pathname === '/dashboard') ? 'nav-item active' : 'nav-item'}>
                         <a className="nav-link" href="http://localhost/fueldelivery/admin/dashboard.php">
-                          Dashboard <span diplay-if={window.gLocation.pathname === '/dashboard'} className="sr-only">(current)</span>
+                          Admin <span diplay-if={window.gLocation.pathname === '/dashboard'} className="sr-only">(current)</span>
                         </a>
                       </li>
-                      <li className="nav-item dropdown">
-                        <a className="nav-link dropdown-toggle">
-                          Dashboard <span diplay-if={window.gLocation.pathname === '/dashboard'} className="sr-only">(current)</span>
+                      <li className={(window.gLocation.pathname === '/dashboard') ? 'nav-item active' : 'nav-item'}>
+                        <a className="nav-link" href="http://localhost/fueldelivery/fuelstation/dashboard.php">
+                          Fuel Station<span diplay-if={window.gLocation.pathname === '/dashboard'} className="sr-only">(current)</span>
                         </a>
-                        <ul className="dropdown-menu" aria-labelledby="navbarDropdown" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          <li><a className="dropdown-item" href="#">Action</a></li>
-                          <li><a className="dropdown-item" href="#">Another action</a></li>
-                          <li><a className="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
                       </li>
                     </ul>
                     {/* <form className="form-inline my-2 my-lg-0 ml-0 ml-lg-4 mb-3 mb-lg-0">

@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import "./stations.css";
-import { For } from "babel-plugin-jsx-control-statements";
 
 const Stations = () => {
   const [data, setData] = useState([]);
@@ -11,59 +10,49 @@ const Stations = () => {
     )
       .then((x) => x.json())
       .then((y) => {
-        setData(y)
+        setData(y);
+        console.log(y);
       });
-  });
+  }, []);
 
   return (
     <>
       <div className="teamWrapper">
         <div className="container">
           <div className="teamGrid">
-            <For each="item" index="i" of={data}>
-              <div className="colmun">
-                <div className="teamcol">
-                  <div className="teamcolinner">
-                    <div className="member-name">
-                      {" "}
-                      <h2 align="center">Mohamed Yousef</h2>{" "}
-                    </div>
-                    <div className="member-info">
-                      <p align="center">
-                        Lorem Ipsum is a simply dummy text of the printing and
-                        typesetting industry.
-                      </p>
-                    </div>
-                    <div className="member-mail">
-                      {" "}
-                      <p align="center">
+            {
+              data.map((item) => {
+                return (<div className="colmun col-12 col-md-6 col-lg-4">
+                  <div className="teamcol">
+                    <div className="teamcolinner">
+                      <div className="member-name">
                         {" "}
-                        <a href="mailto:@gmail.com">mailto:@gmail.com</a>{" "}
-                      </p>{" "}
-                    </div>
-                    <div className="member-social">
-                      <ul className="social-listing">
-                        <li>
-                          <a href="#">
-                            <i className="fa fa-facebook" />
-                          </a>
-                        </li>
-                        <li>
-                          <a href="#">
-                            <i className="fa fa-instagram" />
-                          </a>
-                        </li>
-                        <li>
-                          <a href="#">
-                            <i className="fa fa-twitter" />
-                          </a>
-                        </li>
-                      </ul>
+                        <h2 align="center">{item.NameoffuelStation}</h2>{" "}
+                      </div>
+                      <div className="member-info">
+
+                      </div>
+                      <div className="member-mail">
+                        {" "}
+                        <p align="center">
+                          {" "}
+                          <span>{item.FullName}</span><br />
+                          <span>{item.LocationoffuelStation}</span><br />
+                          <a style={{ "word-wrap": "break-word", fontSize: "small" }} href={"mailto:" + item.Email}>{item.Email}</a>{" "}
+                          <br /><a href={"tel:" + item.MobileNumber}>0{item.MobileNumber}</a>{" "}
+                        </p>{" "}
+                        <br />
+
+                        <div className="map-responsive">
+                          <iframe src={"https://www.google.com/maps/embed/v1/place?key=AIzaSyA0s1a7phLN0iaD6-UE7m4qP-z21pH0eSc&q=" + item.NameoffuelStation} width={600} height={300} frameBorder={0} style={{ border: 0, width: '100%', height: '100%', marginBottom: '-7px' }} allowFullScreen />
+                          {/* Eiffel+Tower+Paris+France */}
+                        </div>
+                      </div>
                     </div>
                   </div>
-                </div>
-              </div>
-            </For>
+                </div>)
+              })
+            }
           </div>
         </div>
       </div>

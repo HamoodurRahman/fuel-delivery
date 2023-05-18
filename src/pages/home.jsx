@@ -211,9 +211,9 @@ function Home() {
                   BEST RESULTS
                 </h2>
                 <p>
-                  Online fuel delivery offers a high level of convenience to customers who may find it difficult or time-consuming to visit a petrol station. With online fuel delivery, customers can order fuel from the comfort of their homes or offices, and have it delivered to their doorstep at a convenient time.<br/>
+                  Online fuel delivery offers a high level of convenience to customers who may find it difficult or time-consuming to visit a petrol station. With the website, customers can order fuel from the comfort of their homes or offices, and have it delivered to their doorstep at a convenient time.<br/>
 
-                  Online fuel delivery saves customers time that would have been spent traveling to a petrol station, waiting in line, and filling up their tanks. This time can be redirected to other important tasks, making online fuel delivery a valuable time-saving service.
+                  It saves customers time that would have been spent traveling to a petrol station, waiting in line, and filling up their tanks.
                 </p>
               </div>
             </div>
